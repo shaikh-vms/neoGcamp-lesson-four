@@ -1,2 +1,2 @@
-var input = prompt('can i have your name');
-alert('hello output here'+input)
+var btn = document.querySelector('#btn');
+btn.addEventListener('click',()=> {console.log('clicked')});
