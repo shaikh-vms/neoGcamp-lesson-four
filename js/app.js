@@ -1,2 +1,6 @@
 var btn = document.querySelector('#btn');
-btn.addEventListener('click',()=> {console.log('clicked')});
+var inputText = document.querySelector('#inputText');
+btn.addEventListener('click',()=> {
+    var textInput = inputText.value;
+    console.log(textInput)
+});
